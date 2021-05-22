@@ -11,8 +11,8 @@ puts "Values before SWAP are a = #{a} & b = #{b}"
 INPUT : 
  a = 3 
  b = 7
-
-OUTPU :
+ 
+OUTPUT :
  a = 7
  b = 3
 
@@ -32,7 +32,17 @@ def withxor(a , b)
   puts "Values after SWAP are a = #{a} & b = #{b}"
 end
 
-while c != false
+def withdiv(a , b)
+  a = a * b 
+  b = a / b 
+  a = a / b 
+  puts "Values after SWAP are a = #{a} & b = #{b}"
+end
+
+ c = 'y'
+while c != 'n'
+  puts "Enter Choice, Please type : opr , xor , div "
+  choice = gets.chomp
 case choice 
   when "opr"
   withopr(a,b)
@@ -40,5 +50,12 @@ case choice
   when "xor"
   withxor(a,b)
 
+  when "div"
+  withdiv(a,b)
+  
   else
   puts "Please Provide Input."
+end
+ puts "Want to Try another method? y / n"
+ c = gets.chomp
+end
