@@ -15,3 +15,5 @@
 \.[0]* #Only Zero
 
 (^\d{4})-(\d{1,2})-([\d{1,2}]+)$ #date YYYY-MM-DD
+
+(?<name>\w+) (?<age>\d+) #rander the pattern into name & age
