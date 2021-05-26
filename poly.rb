@@ -15,7 +15,8 @@ class Car
     end
 
     def hike
-        @price = price + price * 0.1
+        self.price = price + price * 0.1
+        # self.price = price + price * 0.1   # same as above
         puts "#{name} price will be #{price.to_i} in #{year+1} ."
     end
 end
