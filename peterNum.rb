@@ -11,11 +11,31 @@ OUTPUT : Yes
 
 
 def fact(num)
-    
+    if num == 0
+        return 1
+    else
+        return fact(num - 1)*num
+    end
 end
 
 puts "Enter a number!"
 num = gets.to_i
 
+temp = num
+sum = 0
 
+while temp != 0
+    rem = temp % 10
+    sum += fact(rem)
+    temp /= 10
+end
 
+puts "Is #{num} Peterson Number?"
+
+puts sum == num ? "Yes" : "No"
+
+# if sum == num
+#     puts "Yes"
+# else
+#     puts "No"
+# end
