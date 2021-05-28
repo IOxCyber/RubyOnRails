@@ -2,6 +2,7 @@
 
 ## Installation
 [Follow this](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rvm-on-ubuntu-18-04)
+[Yarn Download](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
 
 ## IDE
