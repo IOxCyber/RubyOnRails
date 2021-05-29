@@ -23,5 +23,6 @@
 [11. Full Guide](https://guides.rubyonrails.org/getting_started.html)<br>
 [12. How to Rails](https://rubygarage.org/blog/how-to-learn-ruby-on-rails)<br>
 [13. Doctrine Rails](https://rubyonrails.org/doctrine/)<br>
+[14. Best Resources to learn Ruby](https://medium.com/globalluxsoft/the-best-sources-to-learn-ruby-on-rails-6eecbe4001c6)
 
 There is more on the way...
